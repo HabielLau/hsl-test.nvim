@@ -6,7 +6,6 @@ local M = {
 }
 
 function M.reset()
-  require("hsl-test.util").cache.clear()
   local colors = require("hsl-test.colors").setup()
   M.globals.colors = colors
   M.globals.c = colors
@@ -70,11 +69,10 @@ return {
               local hl = vim.api.nvim_get_hl(0, { name = group, link = false, create = false })
               if not vim.tbl_isempty(hl) then
                 hl.fg = hl.fg or vim.api.nvim_get_hl(0, { name = "Normal", link = false }).fg
-                M.cache[group] = true
                 vim.api.nvim_set_hl(0, group .. "Dev", hl)
               end
             end
-            return group .. "Dev" or nil
+            return group .. "Dev"
           end,
           extmark_opts = { priority = 2000 },
         },
