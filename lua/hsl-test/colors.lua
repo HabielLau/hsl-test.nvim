@@ -75,6 +75,14 @@ M.default = {
   cyan500 = hsl(185, 59, 40),
   cyan700 = hsl(185, 59, 25),
   cyan900 = hsl(185, 58, 15),
+  -- Dom bG
+  -- green
+  green = hsl(130, 89, 48),
+  green100 = hsl(152, 89, 86),
+  green300 = hsl(125, 89, 61),
+  green500 = hsl(111, 89, 38),
+  green700 = hsl(111, 89, 19),
+  green900 = hsl(130, 89, 10),
 
   bg = hsl(249, 54, 12),
   bg_highlight = hsl(249, 54, 18),

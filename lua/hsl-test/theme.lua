@@ -34,7 +34,7 @@ function M.setup()
     M.terminal(colors)
   end
 
-  return colors, groups, opts
+  return colors, opts
 end
 
 ---@param colors ColorScheme

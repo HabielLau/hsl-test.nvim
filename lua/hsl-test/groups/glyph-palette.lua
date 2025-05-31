@@ -4,7 +4,7 @@ function M.get(c, opts)
   -- stylua: ignore
   return {
     GlyphPalette1 = { fg = c.dkpink500 },
-    GlyphPalette2 = { fg = c.violet },
+    GlyphPalette2 = { fg = c.green },
     GlyphPalette3 = { fg = c.purple },
     GlyphPalette4 = { fg = c.pink },
     GlyphPalette6 = { fg = c.cyan },
