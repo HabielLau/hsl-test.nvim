@@ -2,10 +2,8 @@ local Util = require("hsl-test.util")
 
 local M = {}
 
----@param opts? tokyonight.Config
 function M.setup()
-  opts = require("hsl-test.config").extend(opts)
-  
+  local opts = require("hsl-test.config").extend()
   local colors = require("hsl-test.colors").setup()
   local groups = require("hsl-test.groups").setup(colors, opts.options)
 
