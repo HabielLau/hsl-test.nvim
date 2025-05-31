@@ -8,7 +8,7 @@ function M.setup()
   local groups = require("hsl-test.groups").setup(colors, opts.options)
 
   if vim.g.loaded_lightline then
-    vim.g.lightline = { colorscheme = "hsl-test" }
+    vim.g.lightline = { colorscheme = "hsl_test" }
   end
 
   if vim.g.colors_name then

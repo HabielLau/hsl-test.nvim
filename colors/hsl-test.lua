@@ -1,1 +1,3 @@
-require("hsl-test")._load()
+require("hsl-test")._load({
+  style = vim.o.background == "day" or nil,
+})
