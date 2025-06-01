@@ -16,6 +16,7 @@ end
 function M.hl_group(name, buf)
   return vim.api.nvim_buf_get_name(buf):find("kinds") and "LspKind" .. name or name
 end
+
 local function reload()
   for k in pairs(package.loaded) do
     if k:find("^" .. M.module) then
