@@ -1,11 +1,13 @@
 local M = {
   module = "vpanime_girl",
   colorscheme = "vpanime_girl",
-  opts = { plugins = { all = true } },
+  opts = { style = "", plugins = { all = true } },
   globals = { vim = vim },
+  cache = {}, ---@type table<string, boolean>
 }
 
 function M.reset()
+  require("vpanime_girl.util").cache.clear()
   local colors = require("vpanime_girl.colors").setup()
   M.globals.colors = colors
   M.globals.c = colors
@@ -44,7 +46,7 @@ vim.api.nvim_create_autocmd("User", {
 })
 vim.api.nvim_create_autocmd("BufWritePost", {
   group = augroup,
-  pattern = "*/lua/" .. M.module .. "/*.lua",
+  pattern = "*/lua/" .. M.module .. "/**.lua",
   callback = reload,
 })
 
@@ -66,13 +68,17 @@ return {
           group = function(buf, match)
             local group = M.hl_group(match, buf)
             if group then
-              local hl = vim.api.nvim_get_hl(0, { name = group, link = false, create = false })
-              if not vim.tbl_isempty(hl) then
-                hl.fg = hl.fg or vim.api.nvim_get_hl(0, { name = "Normal", link = false }).fg
-                vim.api.nvim_set_hl(0, group .. "Dev", hl)
+              if M.cache[group] == nil then
+                M.cache[group] = false
+                local hl = vim.api.nvim_get_hl(0, { name = group, link = false, create = false })
+                if not vim.tbl_isempty(hl) then
+                  hl.fg = hl.fg or vim.api.nvim_get_hl(0, { name = "Normal", link = false }).fg
+                  M.cache[group] = true
+                  vim.api.nvim_set_hl(0, group .. "Dev", hl)
+                end
               end
+              return M.cache[group] and group .. "Dev" or nil
             end
-            return group .. "Dev"
           end,
           extmark_opts = { priority = 2000 },
         },
