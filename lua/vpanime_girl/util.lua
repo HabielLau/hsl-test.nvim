@@ -1,4 +1,4 @@
-local ts = require("vpanime_girl.treesitter")
+local ts = require("vpanime-girl.treesitter")
 
 local M = {}
 
@@ -37,7 +37,7 @@ function M.lighten(hex, amount, fg)
 end
 
 function M.invert_color(color)
-  local hsluv = require("vpanime_girl.hsluv")
+  local hsluv = require("vpanime-girl.hsluv")
   if color ~= "NONE" then
     local hsl = hsluv.hex_to_hsluv(color)
     hsl[3] = 100 - hsl[3]

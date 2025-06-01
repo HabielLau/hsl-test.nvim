@@ -20,7 +20,7 @@ function M.generate(colors)
   local ret = "local colors = "
     .. vim.inspect(colors)
     .. "\n\nlocal highlights = "
-    .. vim.inspect(deepcopy(require("hsl-test.theme").setup().highlights))
+    .. vim.inspect(deepcopy(require("vpanime-girl.theme").setup().highlights))
     .. "\n"
   return ret
 end

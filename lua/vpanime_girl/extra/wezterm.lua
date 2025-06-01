@@ -1,4 +1,4 @@
-local util = require("vpanime_girl.util")
+local util = require("vpanime-girl.util")
 
 local M = {}
 

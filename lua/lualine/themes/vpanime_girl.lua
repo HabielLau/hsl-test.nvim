@@ -1,5 +1,5 @@
-local colors = require("vpanime_girl.colors").setup({ transform = true })
-local config = require("vpanime_girl.config").options
+local colors = require("vpanime-girl.colors").setup({ transform = true })
+local config = require("vpanime-girl.config").options
 
 local hsl_test = {}
 

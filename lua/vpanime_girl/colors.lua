@@ -1,5 +1,5 @@
-local util = require("vpanime_girl.util")
-local hslutil = require("vpanime_girl.hsl")
+local util = require("vpanime-girl.util")
+local hslutil = require("vpanime-girl.hsl")
 local hsl = hslutil.hslToHex
 
 local M = {}

@@ -1,10 +1,10 @@
----@class vpanime_girl.Highlight: vim.api.keyset.highlight
+---@class vpanime-girl.Highlight: vim.api.keyset.highlight
 ---@field style? vim.api.keyset.highlight
 
----@alias vpanime_girl.Highlights table<string,vpanime_girl.Highlight|string>
+---@alias vpanime-girl.Highlights table<string,vpanime-girl.Highlight|string>
 
----@alias vpanime_girl.HighlightsFn fun(colors: ColorScheme, opts:vpanime_girl.Config):vpanime_girl.Highlights
+---@alias vpanime-girl.HighlightsFn fun(colors: ColorScheme, opts:vpanime-girl.Config):vpanime-girl.Highlights
 
----@class vpanime_girl.Cache
----@field groups vpanime_girl.Highlights
+---@class vpanime-girl.Cache
+---@field groups vpanime-girl.Highlights
 ---@field inputs table

@@ -1,14 +1,14 @@
 local M = {
-  module = "vpanime_girl",
-  colorscheme = "vpanime_girl",
+  module = "vpanime-girl",
+  colorscheme = "vpanime-girl",
   opts = { style = "", plugins = { all = true } },
   globals = { vim = vim },
   cache = {}, ---@type table<string, boolean>
 }
 
 function M.reset()
-  require("vpanime_girl.util").cache.clear()
-  local colors = require("vpanime_girl.colors").setup()
+  require("vpanime-girl.util").cache.clear()
+  local colors = require("vpanime-girl.colors").setup()
   M.globals.colors = colors
   M.globals.c = colors
 end
