@@ -1,11 +1,11 @@
-local Util = require("hsl-test.util")
+local Util = require("vpanime_girl.util")
 
 local M = {}
 
 function M.setup()
-  local colors = require("hsl-test.colors").setup()
-  local opts = require("hsl-test.config")
-  local groups = require("hsl-test.groups").setup(colors, opts.options)
+  local colors = require("vpanime_girl.colors").setup()
+  local opts = require("vpanime_girl.config")
+  local groups = require("vpanime_girl.groups").setup(colors, opts.options)
 
   if vim.g.loaded_lightline then
     vim.g.lightline = { colorscheme = "hsl_test" }
@@ -16,7 +16,7 @@ function M.setup()
   end
 
   vim.o.termguicolors = true
-  vim.g.colors_name = "hsl-test"
+  vim.g.colors_name = "vpanime_girl"
 
   if opts.is_day() then
     Util.invert_colors(colors)

@@ -1,14 +1,14 @@
-local theme = require("hsl-test.theme")
-local config = require("hsl-test.config")
+local theme = require("vpanime_girl.theme")
+local config = require("vpanime_girl.config")
 
 local M = {}
 
 function M._load(style)
   if style and not M._style then
-    M._style = require("hsl-test.colors").options.style
+    M._style = require("vpanime_girl.colors").options.style
   end
   if not style and M._style then
-    require("hsl-test.config").options.style = M._style
+    require("vpanime_girl.config").options.style = M._style
     M._style = nil
   end
   M.load({ style = style, use_background = style == nil })
@@ -17,7 +17,7 @@ end
 ---@param opts Config|nil
 function M.load(opts)
   if opts then
-    require("hsl-test.config").extend(opts)
+    require("vpanime_girl.config").extend(opts)
   end
   theme.setup()
 end

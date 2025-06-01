@@ -1,4 +1,4 @@
-local util = require("hsl-test.util")
+local util = require("vpanime_girl.util")
 
 local M = {}
 
