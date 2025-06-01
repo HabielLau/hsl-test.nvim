@@ -1,7 +1,7 @@
 local M = {
   module = "vpanime-girl",
   colorscheme = "vpanime-girl",
-  opts = { style = "", plugins = { all = true } },
+  opts = { style = "moon", plugins = { all = true } },
   globals = { vim = vim },
   cache = {}, ---@type table<string, boolean>
 }
@@ -74,10 +74,10 @@ return {
                 if not vim.tbl_isempty(hl) then
                   hl.fg = hl.fg or vim.api.nvim_get_hl(0, { name = "Normal", link = false }).fg
                   M.cache[group] = true
-                  vim.api.nvim_set_hl(0, group .. "dev", hl)
+                  vim.api.nvim_set_hl(0, group .. "Dev", hl)
                 end
               end
-              return M.cache[group] and group .. "dev" or nil
+              return M.cache[group] and group .. "Dev" or nil
             end
           end,
           extmark_opts = { priority = 2000 },
