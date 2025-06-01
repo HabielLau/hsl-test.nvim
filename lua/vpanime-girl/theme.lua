@@ -2,38 +2,33 @@ local Util = require("vpanime-girl.util")
 
 local M = {}
 
-function M.setup()
-  local colors = require("vpanime-girl.colors").setup()
-  local opts = require("vpanime-girl.config")
-  local groups = require("vpanime-girl.groups").setup(colors, opts.options)
+---@param opts? tokyonight.Config
+function M.setup(opts)
+  opts = require("vpanime-girl.config").extend(opts)
 
-  if vim.g.loaded_lightline then
-    vim.g.lightline = { colorscheme = "vpanime-girl" }
-  end
+  local colors = require("vpanime-girl.colors").setup(opts)
+  local groups = require("vpanime-girl.groups").setup(colors, opts)
 
+  -- only needed to clear when not the default colorscheme
   if vim.g.colors_name then
     vim.cmd("hi clear")
   end
 
   vim.o.termguicolors = true
-  vim.g.colors_name = "vpanime-girl"
-
-  if opts.is_day() then
-    Util.invert_colors(colors)
-    Util.invert_highlights(groups)
-  end
+  vim.g.colors_name = "vpanime-girl-" .. opts.style
 
   for group, hl in pairs(groups) do
     hl = type(hl) == "string" and { link = hl } or hl
     vim.api.nvim_set_hl(0, group, hl)
   end
 
-  if opts.options.terminal_colors then
+  if opts.terminal_colors then
     M.terminal(colors)
   end
 
   return colors, groups, opts
 end
+
 
 ---@param colors ColorScheme
 function M.terminal(colors)
