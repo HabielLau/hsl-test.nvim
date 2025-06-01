@@ -32,31 +32,31 @@ end
 ---@param colors ColorScheme
 function M.terminal(colors)
   -- dark
-  vim.g.terminal_color_0 = colors.black
-  vim.g.terminal_color_8 = colors.black
+  vim.g.terminal_color_0 = colors.terminal.black
+  vim.g.terminal_color_8 = colors.terminal.black
 
   -- light
-  vim.g.terminal_color_7 = colors.fg
-  vim.g.terminal_color_15 = colors.fg
+  vim.g.terminal_color_7 = colors.terminal.fg
+  vim.g.terminal_color_15 = colors.terminal.fg
 
   -- colors
-  vim.g.terminal_color_1 = colors.dkpink
-  vim.g.terminal_color_9 = colors.dkpink
+  vim.g.terminal_color_1 = colors.terminal.dkpink
+  vim.g.terminal_color_9 = colors.terminal.dkpink
 
-  vim.g.terminal_color_2 = colors.green
-  vim.g.terminal_color_10 = colors.green
+  vim.g.terminal_color_2 = colors.terminal.green
+  vim.g.terminal_color_10 = colors.terminal.green
 
-  vim.g.terminal_color_3 = colors.purple
-  vim.g.terminal_color_11 = colors.purple
+  vim.g.terminal_color_3 = colors.terminal.purple
+  vim.g.terminal_color_11 = colors.terminal.purple
 
-  vim.g.terminal_color_4 = colors.pink
-  vim.g.terminal_color_12 = colors.pink
+  vim.g.terminal_color_4 = colors.terminal.pink
+  vim.g.terminal_color_12 = colors.terminal.pink
 
-  vim.g.terminal_color_5 = colors.dkmagenta
-  vim.g.terminal_color_13 = colors.dkmagenta
+  vim.g.terminal_color_5 = colors.terminal.dkmagenta
+  vim.g.terminal_color_13 = colors.terminal.dkmagenta
 
-  vim.g.terminal_color_6 = colors.cyan
-  vim.g.terminal_color_14 = colors.cyan
+  vim.g.terminal_color_6 = colors.terminal.cyan
+  vim.g.terminal_color_14 = colors.terminal.cyan
 end
 
 return M
