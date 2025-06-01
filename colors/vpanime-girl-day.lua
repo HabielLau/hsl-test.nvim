@@ -1,1 +1,1 @@
-require("vpanime-girl")._load("day")
+require("vpanime-girl").load({ style = "day" })
