@@ -43,7 +43,7 @@ local defaults = {
     all = package.loaded.lazy == nil,
     -- uses your plugin manager to automatically enable needed plugins
     -- currently only lazy.nvim is supported
-    auto = true,
+    auto = false,
     -- add any plugins here that you want to enable
     -- for all possible plugins, see:
     --   * https://github.com/craftzdog/solarized-osaka.nvim/tree/main/lua/solarized-osaka/groups
