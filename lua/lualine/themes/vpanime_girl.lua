@@ -1,35 +1,35 @@
 local colors = require("vpanime-girl.colors").setup({ transform = true })
 local config = require("vpanime-girl.config").options
 
-local hsl_test = {}
+local vpanime_girl = {}
 
-hsl_test.normal = {
+vpanime_girl.normal = {
   a = { bg = colors.pink, fg = colors.black },
   b = { bg = colors.base0, fg = colors.base04 },
   c = { bg = colors.bg_statusline, fg = colors.fg },
 }
 
-hsl_test.insert = {
+vpanime_girl.insert = {
   a = { bg = colors.green, fg = colors.black },
 }
 
-hsl_test.command = {
+vpanime_girl.command = {
   a = { bg = colors.purple, fg = colors.black },
 }
 
-hsl_test.visual = {
+vpanime_girl.visual = {
   a = { bg = colors.dkmagenta, fg = colors.black },
 }
 
-hsl_test.replace = {
+vpanime_girl.replace = {
   a = { bg = colors.dkpink, fg = colors.black },
 }
 
-hsl_test.terminal = {
+vpanime_girl.terminal = {
   a = { bg = colors.green, fg = colors.black },
 }
 
-hsl_test.inactive = {
+vpanime_girl.inactive = {
   a = {
     bg = config.hide_inactive_statusline and colors.none or colors.bg_statusline,
     fg = config.hide_inactive_statusline and colors.bg or colors.pink,
@@ -52,9 +52,9 @@ hsl_test.inactive = {
 }
 
 if config.lualine_bold then
-  for _, mode in pairs(hsl_test) do
+  for _, mode in pairs(vpanime_girl) do
     mode.a.gui = "bold"
   end
 end
 
-return hsl_test
+return vpanime_girl

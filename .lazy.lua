@@ -1,6 +1,6 @@
 local M = {
-  module = "solarized-osaka",
-  colorscheme = "solarized-osaka",
+  module = "vpanime-girl",
+  colorscheme = "vpanime-girl",
   opts = { plugins = { all = true } },
   globals = { vim = vim },
 }
