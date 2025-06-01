@@ -1,5 +1,5 @@
 local theme = require("hsl-test.theme")
-local config = require("hsl-test.colors")
+local config = require("hsl-test.config")
 
 local M = {}
 
@@ -22,7 +22,7 @@ function M.load(opts)
   theme.setup()
 end
 
-M.setup = config.setup
+M.setup = config.setup()
 
 -- keep for backward compatibility
 M.colorscheme = M.load
