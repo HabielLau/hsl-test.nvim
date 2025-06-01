@@ -7,8 +7,7 @@ local M = {}
 ---@class Palette
 M.default = {
   none = "NONE",
-  -- dom bA/bF
-  -- bases
+
   base04 = hsl(249, 54, 12),
   base03 = hsl(249, 54, 18),
   base02 = hsl(249, 35, 21),
@@ -19,64 +18,48 @@ M.default = {
   base2 = hsl(277, 65, 88),
   base3 = hsl(275, 99, 94),
   base4 = hsl(0, 0, 100),
-  -- dom bB
-  -- purple
   purple = hsl(255, 66, 12),
   purple100 = hsl(257, 66, 57),
   purple300 = hsl(255, 66, 23),
   purple500 = hsl(255, 66, 20),
   purple700 = hsl(255, 66, 12),
   purple900 = hsl(256, 66, 10),
-  -- dom bC
-  -- ltpurple
   ltpurple = hsl(261, 71, 38),
   ltpurple100 = hsl(260, 91, 72),
   ltpurple300 = hsl(260, 85, 59),
   ltpurple500 = hsl(261, 79, 52),
   ltpurple700 = hsl(261, 80, 43),
   ltpurple900 = hsl(261, 80, 28),
-  -- Dom bD
-  -- dkpink
   dkpink = hsl(306, 86, 61),
   dkpink100 = hsl(306, 100, 88),
   dkpink300 = hsl(306, 90, 62),
   dkpink500 = hsl(306, 71, 50),
   dkpink700 = hsl(306, 71, 40),
   dkpink900 = hsl(306, 71, 18),
-  -- Dom bE
-  -- dkmagenta
   dkmagenta = hsl(284, 63, 26),
   dkmagenta100 = hsl(284, 100, 47),
   dkmagenta300 = hsl(284, 86, 35),
   dkmagenta500 = hsl(284, 64, 25),
   dkmagenta700 = hsl(284, 64, 15),
   dkmagenta900 = hsl(284, 64, 7),
-  -- Dom bH
-  -- ltpink
   ltpink = hsl(309, 78, 79),
   ltpink100 = hsl(309, 100, 90),
   ltpink300 = hsl(309, 69, 77),
   ltpink500 = hsl(309, 43, 60),
   ltpink700 = hsl(309, 43, 50),
   ltpink900 = hsl(309, 42, 30),
-  -- Dom bI
-  -- pink
   pink = hsl(308, 84, 36),
   pink100 = hsl(308, 100, 83),
   pink300 = hsl(308, 90, 62),
   pink500 = hsl(308, 69, 49),
   pink700 = hsl(308, 70, 35),
   pink900 = hsl(308, 69, 20),
-  -- Dom bJ
-  -- cyan
   cyan = hsl(185, 55, 67),
   cyan100 = hsl(185, 100, 86),
   cyan300 = hsl(185, 85, 55),
   cyan500 = hsl(185, 59, 40),
   cyan700 = hsl(185, 59, 25),
   cyan900 = hsl(185, 58, 15),
-  -- Dom bG
-  -- green
   green = hsl(130, 89, 48),
   green100 = hsl(152, 89, 86),
   green300 = hsl(125, 89, 61),
@@ -92,7 +75,7 @@ M.default = {
 ---@return ColorScheme
 function M.setup(opts)
   opts = opts or {}
-  local config = require("hsl-test.config")
+  local config = require("vpanime-girl.config")
 
   -- local style = config.is_day() and config.options.light_style or config.options.style
   local style = "default"

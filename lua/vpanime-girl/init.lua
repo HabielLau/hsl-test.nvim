@@ -1,26 +1,30 @@
+local theme = require("vpanime-girl.theme")
 local config = require("vpanime-girl.config")
 
 local M = {}
----@type {light?: string, dark?: string}
-M.styles = {}
 
----@param opts? vpanime-girl.Config
-function M.load(opts)
-  opts = require("vpanime-girl.config").extend(opts)
-  local bg = vim.o.background
-  local style_bg = opts.style == "day" and "light" or "dark"
-
-  if bg ~= style_bg then
-    if vim.g.colors_name == "vpanime-girl-" .. opts.style then
-      opts.style = bg == "light" and (M.styles.light or "day") or (M.styles.dark or "moon")
-    else
-      vim.o.background = style_bg
-    end
+function M._load(style)
+  if style and not M._style then
+    M._style = require("vpanime-girl.config").options.style
   end
-  M.styles[vim.o.background] = opts.style
-  return require("vpanime-girl.theme").setup(opts)
+  if not style and M._style then
+    require("vpanime-girl.config").options.style = M._style
+    M._style = nil
+  end
+  M.load({ style = style, use_background = style == nil })
 end
 
-M.setup = config.setup
+---@param opts Config|nil
+function M.load(opts)
+  if opts then
+    require("vpanime-girl.config").extend(opts)
+  end
+  theme.setup()
+end
+
+M.setup = config.setup()
+
+-- Keep for back compat
+M.colorscheme = M.load()
 
 return M
