@@ -11,7 +11,7 @@ function M.get(c, opts)
     NotifyWARNBorder  = { fg = Util.darken(c.warning, 0.3), bg = opts.transparent and c.none or c.bg },
     NotifyINFOBorder  = { fg = Util.darken(c.info, 0.3), bg = opts.transparent and c.none or c.bg },
     NotifyDEBUGBorder = { fg = Util.darken(c.base01, 0.3), bg = opts.transparent and c.none or c.bg },
-    NotifyTRACEBorder = { fg = Util.darken(c.violet500, 0.3), bg = opts.transparent and c.none or c.bg },
+    NotifyTRACEBorder = { fg = Util.darken(c.ltpink500, 0.3), bg = opts.transparent and c.none or c.bg },
     --- Icons
     NotifyERRORIcon   = { fg = c.error },
     NotifyWARNIcon    = { fg = c.warning },

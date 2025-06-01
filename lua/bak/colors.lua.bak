@@ -69,7 +69,7 @@ M.default = {
   green700 = hsl(111, 89, 19),
   green900 = hsl(130, 89, 10),
 
-  bg = hsl(249, 35, 21),
+  bg = hsl(249, 54, 12),
   bg_highlight = hsl(249, 54, 18),
   fg = hsl(243, 23, 83),
 }
@@ -113,10 +113,10 @@ function M.setup(opts)
   colors.fg_float = colors.fg
 
   colors.error = colors.dkpink500
-  colors.warning = colors.purple500
-  colors.info = colors.pink500
-  colors.hint = colors.cyan500
-  colors.todo = colors.ltpink500
+  colors.warning = colors.dkmagenta500
+  colors.info = colors.cyan500
+  colors.hint = colors.ltpurple500
+  colors.todo = colors.pink500
 
   config.options.on_colors(colors)
   if opts.transform and config.is_day() then
@@ -125,5 +125,3 @@ function M.setup(opts)
 
   return colors
 end
-
-return M

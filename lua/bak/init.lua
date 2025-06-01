@@ -22,9 +22,9 @@ function M.load(opts)
   theme.setup()
 end
 
-M.setup = config.setup
+M.setup = config.setup()
 
--- keep for backward compatibility
-M.colorscheme = M.load
+-- Keep for back compat
+M.colorscheme = M.load()
 
 return M

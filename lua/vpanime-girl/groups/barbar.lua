@@ -32,7 +32,7 @@ function M.get(c, opts)
     BufferVisibleMod      = { bg = c.bg_statusline, fg = c.warning },
     BufferVisibleSign     = { bg = c.bg_statusline, fg = c.info },
     BufferVisibleTarget   = { bg = c.bg_statusline, fg = c.red },
-    BufferInactive        = { bg = Util.darken(c.bg_highlight, 0.4), fg = Util.darken(c.violet500, 0.8) },
+    BufferInactive        = { bg = Util.darken(c.bg_highlight, 0.4), fg = Util.darken(c.ltpink500, 0.8) },
     BufferInactiveERROR   = { bg = Util.darken(c.bg_highlight, 0.4), fg = Util.darken(c.error, 0.8) },
     BufferInactiveHINT    = { bg = Util.darken(c.bg_highlight, 0.4), fg = Util.darken(c.hint, 0.8) },
     BufferInactiveINFO    = { bg = Util.darken(c.bg_highlight, 0.4), fg = Util.darken(c.info, 0.8) },

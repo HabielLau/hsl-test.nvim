@@ -46,7 +46,7 @@ local defaults = {
     auto = true,
     -- add any plugins here that you want to enable
     -- for all possible plugins, see:
-    --   * https://github.com/craftzdog/solarized-osaka.nvim/tree/main/lua/solarized-osaka/groups
+    --   * https://github.com/craftzdog/vpanime-girl.nvim/tree/main/lua/vpanime-girl/groups
     -- flash = true,
   },
 }

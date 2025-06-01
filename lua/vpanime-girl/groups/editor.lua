@@ -26,7 +26,7 @@ function M.get(c, options)
     SignColumn                  = { fg = c.base0 }, -- column where |signs| are displayed
     SignColumnSB                = { fg = c.base0 }, -- column where |signs| are displayed
     Substitute                  = { fg = c.base04, bg = c.dkpink500 }, -- |:substitute| replacement text highlighting
-    LineNr                      = { fg = c.purple700, bg = options.transparent and c.none or c.bg }, -- Line number for ":number" and ":#" commands, and when 'number' or 'relativenumber' option is set.
+    LineNr                      = { fg = c.none, bg = options.transparent and c.purple700 or c.bg }, -- Line number for ":number" and ":#" commands, and when 'number' or 'relativenumber' option is set.
     CursorLineNr                = { fg = c.ltpurple500, sp = c.base1 }, -- Like LineNr when 'cursorline' or 'relativenumber' is set for the cursor line.
     MatchParen                  = { fg = c.dkpink100, bg = c.dkpink500, bold = true }, -- The character under the cursor or just before it, if it is a paidkpink bracket, and its match. |pi_paren.txt|
     ModeMsg                     = { fg = c.pink500 }, -- 'showmode' message (e.g., "-- INSERT -- ")

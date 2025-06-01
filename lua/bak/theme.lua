@@ -3,7 +3,7 @@ local Util = require("vpanime-girl.util")
 local M = {}
 
 function M.setup()
-  local colors = require("vpanime-girl.colors").setup()
+  local colors = require("vpanime-girl.colors")
   local opts = require("vpanime-girl.config")
   local groups = require("vpanime-girl.groups").setup(colors, opts.options)
 
