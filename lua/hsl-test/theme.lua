@@ -3,8 +3,8 @@ local Util = require("hsl-test.util")
 local M = {}
 
 function M.setup()
-  local opts = require("hsl-test.config").extend()
   local colors = require("hsl-test.colors").setup()
+  local opts = require("hsl-test.config")
   local groups = require("hsl-test.groups").setup(colors, opts.options)
 
   if vim.g.loaded_lightline then
@@ -32,7 +32,7 @@ function M.setup()
     M.terminal(colors)
   end
 
-  return colors, opts
+  return colors, groups, opts
 end
 
 ---@param colors ColorScheme
@@ -49,8 +49,8 @@ function M.terminal(colors)
   vim.g.terminal_color_1 = colors.dkpink
   vim.g.terminal_color_9 = colors.dkpink
 
-  vim.g.terminal_color_2 = colors.ltpurple
-  vim.g.terminal_color_10 = colors.ltpurple
+  vim.g.terminal_color_2 = colors.green
+  vim.g.terminal_color_10 = colors.green
 
   vim.g.terminal_color_3 = colors.purple
   vim.g.terminal_color_11 = colors.purple

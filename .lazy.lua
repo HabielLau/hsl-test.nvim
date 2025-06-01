@@ -33,20 +33,19 @@ local function reload()
   for _, buf in ipairs(require("mini.hipatterns").get_enabled_buffers()) do
     hi.update(buf)
   end
+  local augroup = vim.api.nvim_create_augroup("colorscheme_dev", { clear = true })
+  vim.api.nvim_create_autocmd("User", {
+    pattern = "VeryLazy",
+    group = augroup,
+    callback = reload,
+  })
+  vim.api.nvim_create_autocmd("BufWritePost", {
+    group = augroup,
+    pattern = "*/lua/" .. M.module .. "/**.lua",
+    callback = reload,
+  })
 end
 reload = vim.schedule_wrap(reload)
-
-local augroup = vim.api.nvim_create_augroup("colorscheme_dev", { clear = true })
-vim.api.nvim_create_autocmd("User", {
-  pattern = "VeryLazy",
-  group = augroup,
-  callback = reload,
-})
-vim.api.nvim_create_autocmd("BufWritePost", {
-  group = augroup,
-  pattern = "*/lua/" .. M.module .. "/**.lua",
-  callback = reload,
-})
 
 return {
   {

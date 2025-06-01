@@ -1,11 +1,11 @@
 local theme = require("hsl-test.theme")
-local config = require("hsl-test.config")
+local config = require("hsl-test.colors")
 
 local M = {}
 
 function M._load(style)
   if style and not M._style then
-    M._style = require("hsl-test.config").options.style
+    M._style = require("hsl-test.colors").options.style
   end
   if not style and M._style then
     require("hsl-test.config").options.style = M._style
