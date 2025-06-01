@@ -74,10 +74,10 @@ return {
                 if not vim.tbl_isempty(hl) then
                   hl.fg = hl.fg or vim.api.nvim_get_hl(0, { name = "Normal", link = false }).fg
                   M.cache[group] = true
-                  vim.api.nvim_set_hl(0, group .. "Dev", hl)
+                  vim.api.nvim_set_hl(0, group .. "dev", hl)
                 end
               end
-              return M.cache[group] and group .. "Dev" or nil
+              return M.cache[group] and group .. "dev" or nil
             end
           end,
           extmark_opts = { priority = 2000 },
