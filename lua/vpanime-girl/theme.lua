@@ -29,7 +29,6 @@ function M.setup(opts)
   return colors, groups, opts
 end
 
-
 ---@param colors ColorScheme
 function M.terminal(colors)
   -- dark
