@@ -8,7 +8,7 @@ function M.setup()
   local groups = require("vpanime-girl.groups").setup(colors, opts.options)
 
   if vim.g.loaded_lightline then
-    vim.g.lightline = { colorscheme = "hsl_test" }
+    vim.g.lightline = { colorscheme = "vpanime-girl" }
   end
 
   if vim.g.colors_name then
