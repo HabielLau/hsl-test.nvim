@@ -8,27 +8,27 @@ colors:
   # Normal colors
   normal:
     black:      '0xdddbeb'
-    dkpink:     '0xeb3bd9'
-    green:      '0x037915'
-    purple:     '0xf0eefa'
-    pink:       '0xfc3ae0'
-    dkmagenta:  '0xdbaff5'
-    cyan:       '0x417176'
+    dkpink:     '0xfc8bec'
+    green:      '0x048218'
+    purple:     '0xd3cef7'
+    pink:       '0xfc44df'
+    dkmagenta:  '0xddb2f5'
+    cyan:       '0x318189'
     white:      '0x7574a5'
 
   # Bright colors
   bright:
     black:      '0xd2d0e5'
-    dkpink:     '0xeb3bd9'
-    green:      '0x037915'
-    purple:     '0xf0eefa'
-    pink:       '0xfc3ae0'
-    dkmagenta:  '0xdbaff5'
-    cyan:       '0x417176'
+    dkpink:     '0xfc8bec'
+    green:      '0x048218'
+    purple:     '0xd3cef7'
+    pink:       '0xfc44df'
+    dkmagenta:  '0xddb2f5'
+    cyan:       '0x318189'
     white:      '0x635f96'
 
   indexed_colors:
-    - { index: 16, color: '0xb9a9f7' }
-    - { index: 17, color: '0xec32da' }
+    - { index: 16, color: '0xbfb0f7' }
+    - { index: 17, color: '0xfc28f4' }
 
   

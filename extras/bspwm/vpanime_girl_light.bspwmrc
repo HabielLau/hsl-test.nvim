@@ -6,6 +6,6 @@
   ## upstream: https://github.com/HabielLau/vpanime-girl.nvim/raw/dev/extras/bspwm/vpanime_girl_light.bspwmrc
 
   bspc config normal_border_color #eeedf8
-  bspc config focused_border_color #10717a
-  bspc config presel_feedback_color #b9a9f7
+  bspc config focused_border_color #2e95a2
+  bspc config presel_feedback_color #bfb0f7
     
