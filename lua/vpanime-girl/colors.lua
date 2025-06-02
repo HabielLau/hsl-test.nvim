@@ -112,11 +112,11 @@ function M.setup(opts)
   -- colors.fg_float = config.options.styles.floats == "dark" and colors.base01 or colors.fg
   colors.fg_float = colors.fg
 
-  colors.error = colors.dkpink500
-  colors.warning = colors.purple500
+  colors.error = colors.ltpink500
+  colors.warning = colors.ltpurple500
   colors.info = colors.pink500
   colors.hint = colors.cyan500
-  colors.todo = colors.ltpink500
+  colors.todo = colors.dkpink500
 
   config.options.on_colors(colors)
   if opts.transform and config.is_day() then
