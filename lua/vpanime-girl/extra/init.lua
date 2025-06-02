@@ -7,6 +7,7 @@ M.extras = {
   alacritty        = { ext = "toml", url = "https://github.com/alacritty/alacritty", label = "Alacritty" },
   bspwm            = { ext = "bspwmrc", url = "https://github.com/baskerville/bspwm", label = "Bspwm" },
   dunst            = { ext = "dunstrc", url = "https://dunst-project.org/", label = "Dunst" },
+  tmux             = { ext = "tmux", url = "https://github.com/tmux/tmux/wiki", label = "Tmux" },
 }
 
 local function write(str, fileName)
