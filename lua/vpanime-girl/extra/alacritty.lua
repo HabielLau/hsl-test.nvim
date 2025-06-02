@@ -22,25 +22,25 @@ colors:
 
   # Normal colors
   normal:
-    black:   '${black}'
+    black:      '${black}'
     dkpink:     '${dkpink}'
-    green:   '${green}'
-    purple:  '${purple}'
-    pink:    '${pink}'
-    dkmagenta: '${dkmagenta}'
-    cyan:    '${cyan}'
-    white:   '${base0}'
+    green:      '${green}'
+    purple:     '${purple}'
+    pink:       '${pink}'
+    dkmagenta:  '${dkmagenta}'
+    cyan:       '${cyan}'
+    white:      '${base0}'
 
   # Bright colors
   bright:
-    black:   '${bg}'
+    black:      '${bg}'
     dkpink:     '${dkpink}'
-    green:   '${green}'
-    purple:  '${purple}'
-    pink:    '${pink}'
-    dkmagenta: '${dkmagenta}'
-    cyan:    '${cyan}'
-    white:   '${fg}'
+    green:      '${green}'
+    purple:     '${purple}'
+    pink:       '${pink}'
+    dkmagenta:  '${dkmagenta}'
+    cyan:       '${cyan}'
+    white:      '${fg}'
 
   indexed_colors:
     - { index: 16, color: '${ltpurple}' }
