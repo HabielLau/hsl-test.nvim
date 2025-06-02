@@ -3,12 +3,12 @@ local M = {}
 function M.get(c, opts)
   -- stylua: ignore
   return {
-    SnacksDashboardDesc       = { fg = c.cyan500 },
-    SnacksDashboardKey        = { fg = c.ltpurple500 },
-    SnacksDashboardFooter     = { fg = c.purple, italic = true },
+    SnacksDashboardDesc       = { fg = c.cyan100 },
+    SnacksDashboardKey        = { fg = c.dkmagenta500 },
+    SnacksDashboardFooter     = { fg = c.purple100, italic = true },
     SnacksDashboardSpecial    = { fg = c.purple500 },
     SnacksDashboardHeader     = { fg = c.pink },
-    SnacksDashboardIcon       = { fg = c.cyan500, bold = true },
+    SnacksDashboardIcon       = { fg = c.cyan100, bold = true },
     SnacksNotifierBorderTrace = { fg = c.dkmagenta500 },
     SnacksNotifierIconTrace   = { fg = c.dkmagenta500 },
     SnacksNotifierTitleTrace  = { fg = c.dkmagenta500 },
