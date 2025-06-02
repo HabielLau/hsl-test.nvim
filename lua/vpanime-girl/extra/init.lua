@@ -9,6 +9,32 @@ M.extras = {
   wezterm          = { ext = "toml", url = "https://wezfurlong.org/wezterm/config/files.html", label = "WezTerm" },
 }
 
+local function write(str, fileName)
+  local rootDir = vim.fs.root(0, ".git")
+  local fullPath = rootDir .. "/extras/" .. fileName
+  print("[write] " .. fullPath)
+  vim.fn.mkdir(vim.fs.dirname(fullPath), "p")
+  local file = io.open(fullPath, "w")
+  if not file then
+    error("Failed to open file: " .. fullPath)
+  end
+  file:write(str)
+  file:close()
+end
+
+function M.read_file(file)
+  local fd = assert(io.open(file, "r"))
+  local data = fd:read("*a")
+  fd:close()
+  return data
+end
+
+function M.write_file(file, contents)
+  local fd = assert(io.open(file, "w+"))
+  fd:write(contents)
+  fd:close()
+end
+
 function M.docs()
   local file = vim.fn.fnamemodify(debug.getinfo(1, "S").source:sub(2), ":p:h:h:h:h") .. "/README.md"
   local tag = "extras"
