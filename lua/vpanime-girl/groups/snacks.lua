@@ -4,7 +4,7 @@ function M.get(c, opts)
   -- stylua: ignore
   return {
     SnacksDashboardDesc       = { fg = c.cyan100 },
-    SnacksDashboardKey        = { fg = c.dkmagenta500 },
+    SnacksDashboardKey        = { fg = c.cyan },
     SnacksDashboardFooter     = { fg = c.purple100, italic = true },
     SnacksDashboardSpecial    = { fg = c.purple500 },
     SnacksDashboardHeader     = { fg = c.pink },
