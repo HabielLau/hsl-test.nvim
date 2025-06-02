@@ -3,9 +3,9 @@ local M = {}
 -- Map of plugin name to plugin extension
 --- @type table<string, {ext:string, url:string, label:string}>
 -- stylua: ignore
-
 M.extras = {
   alacritty        = { ext = "toml", url = "https://github.com/alacritty/alacritty", label = "Alacritty" },
+  dunst            = { ext = "dunstrc", url = "https://dunst-project.org/", label = "Dunst" },
 }
 
 local function write(str, fileName)
@@ -69,8 +69,8 @@ function M.setup()
       config.setup({ style = style, use_background = "auto", transparent = false })
       local colors = require("vpanime-girl.colors").setup({ transform = true })
       local fname = extra .. "/vpanime_girl_" .. style .. "." .. info.ext
-      colors["_upstream_url"] = "https://github.com/HabielLau/vpanime-girl.nvim/raw/dev/extras/" .. fname
-      colors["_style_name"] = "VpAnime Girl" .. style_name
+      colors["_upstream_url"] = "https://github.com/HabielLau/vpanime-girl.nvim/raw/main/extras/" .. fname
+      colors["_style_name"] = "Solarized Osaka" .. style_name
       write(plugin.generate(colors), fname)
     end
   end
