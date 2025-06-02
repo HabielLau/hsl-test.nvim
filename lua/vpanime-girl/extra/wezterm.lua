@@ -23,8 +23,8 @@ inactive_tab_edge = "${base03}"
 background = "#191b28"
 
 [colors.tab_bar.active_tab]
-fg_color = "${pink}"
 bg_color = "${bg}"
+fg_color = "${pink}"
 
 [colors.tab_bar.inactive_tab]
 bg_color = "${base03}"
