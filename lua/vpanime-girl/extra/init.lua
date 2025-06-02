@@ -5,8 +5,6 @@ local M = {}
 -- stylua: ignore
 
 M.extras = {
-  lua              = { ext = "lua", url = "https://www.lua.org", label = "Lua Table for testing" },
-  wezterm          = { ext = "toml", url = "https://wezfurlong.org/wezterm/config/files.html", label = "WezTerm" },
   alacritty        = { ext = "toml", url = "https://github.com/alacritty/alacritty", label = "Alacritty" },
 }
 

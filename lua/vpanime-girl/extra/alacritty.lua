@@ -13,7 +13,7 @@ function M.generate(colors)
 
   local alacritty = util.template(
     [[
-# solarized-osaka Alacritty Colors
+# vpanime-girl Alacritty Colors
 colors:
   # Default colors
   primary:
@@ -45,7 +45,7 @@ colors:
   indexed_colors:
     - { index: 16, color: '${ltpurple}' }
     - { index: 17, color: '${dkpink300}' }
-    
+
   ]],
     alacrittyColors
   )
