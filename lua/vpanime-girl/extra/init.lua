@@ -5,10 +5,9 @@ local M = {}
 -- stylua: ignore
 
 M.extras = {
-  alacritty        = { ext = "toml", url = "https://github.com/alacritty/alacritty", label = "Alacritty" },
-  bspwm            = { ext = "bspwmrc", url = "https://github.com/baskerville/examples/bspwmrc", label = "bspwm" },
   lua              = { ext = "lua", url = "https://www.lua.org", label = "Lua Table for testing" },
   wezterm          = { ext = "toml", url = "https://wezfurlong.org/wezterm/config/files.html", label = "WezTerm" },
+  alacritty        = { ext = "toml", url = "https://github.com/alacritty/alacritty", label = "Alacritty" },
 }
 
 local function write(str, fileName)
