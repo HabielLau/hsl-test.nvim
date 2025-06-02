@@ -6,7 +6,7 @@ function M.get(c, opts)
     SnacksDashboardDesc       = { fg = c.cyan100 },
     SnacksDashboardKey        = { fg = c.cyan },
     SnacksDashboardFooter     = { fg = c.purple100, italic = true },
-    SnacksDashboardSpecial    = { fg = c.purple500 },
+    SnacksDashboardSpecial    = { fg = c.dkpink },
     SnacksDashboardHeader     = { fg = c.pink },
     SnacksDashboardIcon       = { fg = c.cyan100, bold = true },
     SnacksNotifierBorderTrace = { fg = c.dkmagenta500 },
