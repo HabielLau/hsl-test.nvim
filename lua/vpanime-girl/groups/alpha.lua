@@ -3,11 +3,11 @@ local M = {}
 function M.get(c)
   -- stylua: ignore
   return {
-    AlphaShortcut    = { fg = c.ltpurple },
+    AlphaShortcut    = { fg = c.cyan100 },
     AlphaHeader      = { fg = c.pink },
-    AlphaHeaderLabel = { fg = c.ltpurple },
-    AlphaFooter      = { fg = c.cyan },
-    AlphaButtons     = { fg = c.cyan },
+    AlphaHeaderLabel = { fg = c.dkmagenta },
+    AlphaFooter      = { fg = c.dkmagenta100 },
+    AlphaButtons     = { fg = c.cyan100 },
   }
 end
 
