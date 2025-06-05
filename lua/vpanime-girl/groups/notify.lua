@@ -1,4 +1,4 @@
-local Util = require("color-testing.util")
+local Util = require("vpanime-girl.util")
 
 local M = {}
 
