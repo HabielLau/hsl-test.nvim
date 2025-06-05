@@ -4,12 +4,12 @@ function M.get(c, opts)
   -- stylua: ignore
   return {
     DashboardShortCut = { fg = c.cyan },
-    DashboardHeader   = { fg = c.pink },
-    DashboardCenter   = { fg = c.dkmagenta },
-    DashboardFooter   = { fg = c.purple100, italic = true },
-    DashboardKey      = { fg = c.dkmagenta100 },
-    DashboardDesc     = { fg = c.cyan100 },
-    DashboardIcon     = { fg = c.cyan100, bold = true },
+    DashboardHeader   = { fg = c.blue },
+    DashboardCenter   = { fg = c.magenta },
+    DashboardFooter   = { fg = c.yellow, italic = true },
+    DashboardKey      = { fg = c.orange500 },
+    DashboardDesc     = { fg = c.cyan500 },
+    DashboardIcon     = { fg = c.cyan500, bold = true },
   }
 end
 

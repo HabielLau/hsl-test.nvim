@@ -1,4 +1,5 @@
 local c = require("vpanime-girl.colors").setup({ transform = true })
+
 local M = {
   normal = { bg = c.none, fg = c.base0 },
 

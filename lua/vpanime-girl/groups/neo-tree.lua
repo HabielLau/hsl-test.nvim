@@ -7,8 +7,8 @@ function M.get(c, opts)
     NeoTreeNormalNC      = { fg = c.base00, bg = c.bg_sidebar },
     NeoTreeDimText       = { fg = c.base01 },
     NeoTreeMessage       = { fg = c.base01 },
-    NeoTreeGitModified   = { fg = c.purple500 },
-    NeoTreeGitDeleted    = { fg = c.dkpink500 },
+    NeoTreeGitModified   = { fg = c.yellow500 },
+    NeoTreeGitDeleted    = { fg = c.red500 },
     NeoTreeGitAdded      = { fg = c.green500 },
   }
 end

@@ -3,12 +3,12 @@ local M = {}
 function M.get(c, opts)
   -- stylua: ignore
   return {
-    TSRainbowRed    = { fg = c.pink },
-    TSRainbowOrange = { fg = c.ltpurple },
-    TSRainbowYellow = { fg = c.purple },
+    TSRainbowRed    = { fg = c.red },
+    TSRainbowOrange = { fg = c.orange },
+    TSRainbowYellow = { fg = c.yellow },
     TSRainbowGreen  = { fg = c.green },
-    TSRainbowBlue   = { fg = c.pink },
-    TSRainbowViolet = { fg = c.ltpink500 },
+    TSRainbowBlue   = { fg = c.blue },
+    TSRainbowViolet = { fg = c.violet500 },
     TSRainbowCyan   = { fg = c.cyan },
   }
 end

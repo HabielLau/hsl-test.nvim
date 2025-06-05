@@ -1,3 +1,5 @@
 {
-  "diagnostics.disable": ["inject-field"]
+    "diagnostics.disable": [
+        "inject-field"
+    ]
 }

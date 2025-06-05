@@ -1,3 +1,3 @@
 #!/bin/env bash
 
-nvim --headless +"lua require('vpanime-girl.extra').setup()" +qa
+nvim --headless +"lua require('color-testing.extra').setup()" +qa
