@@ -9,9 +9,9 @@ function M.get(c, opts)
     FzfLuaFzfCursorLine = "CursorLine",
     FzfLuaPath          = "Directory",
     FzfLuaHeaderText    = "Title",
-    FzfLuaHeaderBind    = { fg = c.purple, bg = c.bg_float },
-    FzfLuaPreviewTitle  = { fg = c.pink, bg = c.bg_float },
-    FzfLuaTitle         = { fg = c.ltpurple, bg = c.bg_float },
+    FzfLuaHeaderBind    = { fg = c.yellow, bg = c.bg_float },
+    FzfLuaPreviewTitle  = { fg = c.blue, bg = c.bg_float },
+    FzfLuaTitle         = { fg = c.orange, bg = c.bg_float },
     FzfLuaLivePrompt    = "Normal"
   }
 end

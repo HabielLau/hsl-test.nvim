@@ -1,4 +1,4 @@
-local util = require("vpanime-girl.util")
+local util = require("solarized-osaka.util")
 
 local M = {}
 
@@ -13,7 +13,7 @@ function M.generate(colors)
 
   local alacritty = util.template(
     [[
-# vpanime-girl Alacritty Colors
+# solarized-osaka Alacritty Colors
 colors:
   # Default colors
   primary:
@@ -22,30 +22,30 @@ colors:
 
   # Normal colors
   normal:
-    black:      '${black}'
-    dkpink:     '${dkpink}'
-    green:      '${green}'
-    purple:     '${purple}'
-    pink:       '${pink}'
-    dkmagenta:  '${dkmagenta}'
-    cyan:       '${cyan}'
-    white:      '${base0}'
+    black:   '${black}'
+    red:     '${red}'
+    green:   '${green}'
+    yellow:  '${yellow}'
+    blue:    '${blue}'
+    magenta: '${magenta}'
+    cyan:    '${cyan}'
+    white:   '${base0}'
 
   # Bright colors
   bright:
-    black:      '${bg}'
-    dkpink:     '${dkpink}'
-    green:      '${green}'
-    purple:     '${purple}'
-    pink:       '${pink}'
-    dkmagenta:  '${dkmagenta}'
-    cyan:       '${cyan}'
-    white:      '${fg}'
+    black:   '${bg}'
+    red:     '${red}'
+    green:   '${green}'
+    yellow:  '${yellow}'
+    blue:    '${blue}'
+    magenta: '${magenta}'
+    cyan:    '${cyan}'
+    white:   '${fg}'
 
   indexed_colors:
-    - { index: 16, color: '${ltpurple}' }
-    - { index: 17, color: '${dkpink300}' }
-
+    - { index: 16, color: '${orange}' }
+    - { index: 17, color: '${red300}' }
+    
   ]],
     alacrittyColors
   )

@@ -3,7 +3,7 @@ local M = {}
 function M.get(c, opts)
   -- stylua: ignore
   return {
-    FernBranchText = { fg = c.pink },
+    FernBranchText = { fg = c.blue },
   }
 end
 

@@ -1,4 +1,4 @@
-local Util = require("vpanime-girl.util")
+local Util = require("solarized-osaka.util")
 
 local M = {}
 
@@ -65,7 +65,7 @@ M.plugins = {
 }
 
 function M.get_group(name)
-  return Util.mod("vpanime-girl.groups." .. name)
+  return Util.mod("solarized-osaka.groups." .. name)
 end
 
 function M.get(name, colors, opts)

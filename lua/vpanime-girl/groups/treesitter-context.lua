@@ -3,7 +3,7 @@ local M = {}
 function M.get(c, opts)
   -- stylua: ignore
   return {
-    TreesitterContext = { bg = c.ltpink900 },
+    TreesitterContext = { bg = c.violet900 },
   }
 end
 

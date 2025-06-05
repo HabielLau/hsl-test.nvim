@@ -1,0 +1,104 @@
+# 10 Dominant Colors
+#130e2f,    hsl(249 54 12),
+#271460,    hsl(255 66 23),
+#4d1ca7,    hsl(261 71 38),
+#f148e1,    hsl(306 86 61),
+#56196d,    hsl(284 63 26),
+#8a2ac7,    hsl(277 65 47),
+#e90ec1,    hsl(311 89 48),
+#f3a0e7,    hsl(309 78 79),
+#a70f93,    hsl(308 84 36),
+#7cd2d9,    hsl(185 55 67),
+#0dd92f,    hsl(130, 89, 45)
+
+
+# 16 Dominant Colors
+# Light
+#D993D3     hsl(305, 48, 71)
+#7cd2d9     hsl(185, 55, 67)
+#E136CD     hsl(307, 74, 55)
+#C976C2     hsl(305, 43, 63)
+#7B24C8     hsl(272, 69, 46)
+#C01C9C     hsl(313, 75, 43)
+#BE0C84     hsl(320, 88, 40)
+#932C98     hsl(297, 55, 38)
+#455981     hsl(220, 30, 39)
+
+# Dark
+#0B092C     hsl(243, 66, 10)
+#221256     hsl(254, 65, 20)
+#4A1C6F     hsl(273, 60, 27)
+#662476     hsl(288, 53, 30)
+#331980     hsl(255, 67, 30)
+#5120A1     hsl(263, 67, 38)
+#6B86A7     hsl(213, 25, 54)
+
+
+# 9 Dominant
+  # base
+  #0b092c   hsl(243, 66, 10)
+  #232241   hsl(244, 31, 19)
+  #3c3a56   hsl(243, 66, 28)
+  #54536b   hsl(243, 66, 37)
+  #6d6d80   hsl(243, 66, 46)
+  #858496   hsl(243, 66, 55)
+  #9d9dab   hsl(243, 66, 64)
+  #b6b5c0   hsl(243, 66, 73)
+  #ceced5   hsl(243, 66, 82)
+  #e7e6ea   hsl(243, 66, 91)
+
+  # htpink/yellow(solarized)
+  #Be0c84   hsl(320, 88, 40)
+  #c52490   hsl(320, 88, 46)
+  #cb3d9d   hsl(319, 58, 52)
+  #d255a9   hsl(320, 58, 58)
+  #d86db5   hsl(320, 58, 64)
+
+  #dkpink/orange(solarized)
+  #932C98   hsl(297, 55, 38)
+  #9e41a2   hsl(298, 55, 45)
+  #a956ad   hsl(297, 35, 51)
+  #b36bb7   hsl(297, 35, 57)
+  #be80c1   hsl(297, 34, 63)
+
+  #pink/red(solarized)
+  #e364d4   hsl(307, 69, 55)
+  #dc3dc9   hsl(307, 70, 60)
+  #e050ce   hsl(307, 69, 64)
+  #e777d9   hsl(308, 70, 69)
+  #ea8bdf   hsl(307, 69, 73)
+
+  #magenta/magenta(solarized)
+  #662476   hsl(288, 53, 30)
+  #753a84   hsl(288, 53, 37)
+  #855091   hsl(289, 53, 44)
+  #94669f   hsl(288, 23, 51)
+  #a37cad   hsl(288, 23, 58)
+
+  #violet/violet(solarized)
+  #2e1761   hsl(259, 62, 24)
+  #432e71   hsl(259, 42, 31)
+  #584581   hsl(259, 30, 39)
+  #6d5d90   hsl(259, 22, 46)
+  #8274a0   hsl(259, 19, 54)
+
+  #purpel/blue(solarized)
+  #7d38C8   hsl(269, 57, 50)
+  #8a4cce   hsl(269, 57, 55)
+  #9760d3   hsl(269, 57, 60)
+  #a474d9   hsl(269, 57, 65)
+  #b188de   hsl(269, 57, 70)
+
+  #indigo/cyan(solarized)
+  #5120a1   hsl(263, 67, 38)
+  #6236aa   hsl(263, 41, 42)
+  #744db4   hsl(263, 41, 50)
+  #8563db   hsl(263, 41, 56)
+  #9779c7   hsl(263, 41, 63)
+
+  #cyan/green(solarized)
+  #6b86a7   hsl(213, 25, 54)
+  #7a92b0   hsl(213, 25, 58)
+  #899eb9   hsl(213, 26, 63)
+  #97aac1   hsl(213, 25, 67)
+  #a6b6ca   hsl(213, 25, 72)
