@@ -1,4 +1,4 @@
-local Util = require("color-testing.util")
+local Util = require("vpanime-girl.util")
 
 local M = {}
 
@@ -65,7 +65,7 @@ M.plugins = {
 }
 
 function M.get_group(name)
-  return Util.mod("color-testing.groups." .. name)
+  return Util.mod("vpanime-girl.groups." .. name)
 end
 
 function M.get(name, colors, opts)
