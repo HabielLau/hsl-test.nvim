@@ -52,7 +52,7 @@ solarized_osaka.inactive = {
 }
 
 if config.lualine_bold then
-  for _, mode in pairs(solarized_osaka) do
+  for _, mode in pairs(vpanime_girl) do
     mode.a.gui = "bold"
   end
 end
