@@ -5,8 +5,8 @@ function M.get(c, opts)
   return {
     ScrollbarHandle       = { fg = c.none, bg = c.bg_highlight },
 
-    ScrollbarSearchHandle = { fg = c.orange, bg = c.bg_highlight },
-    ScrollbarSearch       = { fg = c.orange, bg = c.none },
+    ScrollbarSearchHandle = { fg = c.ltpurple, bg = c.bg_highlight },
+    ScrollbarSearch       = { fg = c.ltpurple, bg = c.none },
 
     ScrollbarErrorHandle  = { fg = c.error, bg = c.bg_highlight },
     ScrollbarError        = { fg = c.error, bg = c.none },
@@ -20,8 +20,8 @@ function M.get(c, opts)
     ScrollbarHintHandle   = { fg = c.hint, bg = c.bg_highlight },
     ScrollbarHint         = { fg = c.hint, bg = c.none },
 
-    ScrollbarMiscHandle   = { fg = c.violet500, bg = c.bg_highlight },
-    ScrollbarMisc         = { fg = c.violet500, bg = c.none },
+    ScrollbarMiscHandle   = { fg = c.ltpink500, bg = c.bg_highlight },
+    ScrollbarMisc         = { fg = c.ltpink500, bg = c.none },
   }
 end
 

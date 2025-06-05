@@ -3,12 +3,12 @@ local M = {}
 function M.get(c, opts)
   -- stylua: ignore
   return {
-    RainbowDelimiterRed    = { fg = c.red },
-    RainbowDelimiterOrange = { fg = c.orange },
-    RainbowDelimiterYellow = { fg = c.yellow },
+    RainbowDelimiterRed    = { fg = c.dkpink },
+    RainbowDelimiterOrange = { fg = c.ltpurple },
+    RainbowDelimiterYellow = { fg = c.purple },
     RainbowDelimiterGreen  = { fg = c.green },
-    RainbowDelimiterBlue   = { fg = c.blue },
-    RainbowDelimiterViolet = { fg = c.violet },
+    RainbowDelimiterBlue   = { fg = c.pink },
+    RainbowDelimiterViolet = { fg = c.ltpink },
     RainbowDelimiterCyan   = { fg = c.cyan },
   }
 end

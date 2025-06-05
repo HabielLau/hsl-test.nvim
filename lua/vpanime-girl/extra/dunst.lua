@@ -1,4 +1,4 @@
-local util = require("solarized-osaka.util")
+local util = require("vpanime-girl.util")
 
 local M = {}
 
