@@ -1,5 +1,5 @@
-local colors = require("vpanime-girl.colors").setup({ transform = true })
-local config = require("vpanime-girl.config").options
+local colors = require("solarized-osaka.colors").setup({ transform = true })
+local config = require("solarized-osaka.config").options
 
 local solarized_osaka = {}
 
