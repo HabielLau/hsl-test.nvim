@@ -6,6 +6,7 @@ local M = {}
 M.extras = {
   aerc             = { ext = "ini", url = "https://git.sr.ht/~rjarry/aerc/", label = "Aerc" },
   alacritty        = { ext = "toml", url = "https://github.com/alacritty/alacritty", label = "Alacritty" },
+  bspwm            = { ext = "bspwmrc", url = "https://https://github.com/baskerville/bspwm", label = "Bspwm" },
   delta            = { ext = "gitconfig", url = "https://github.com/dandavison/delta", label = "Delta" },
   discord          = { ext = "css", url ="https://betterdiscord.app/", label = "(Better-)Discord"},
   dunst            = { ext = "dunstrc", url = "https://dunst-project.org/", label = "Dunst" },
