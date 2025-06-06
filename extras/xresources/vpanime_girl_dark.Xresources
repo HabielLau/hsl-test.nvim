@@ -1,0 +1,23 @@
+! vpanime-girl colors for Xresources
+
+*background: #190d39
+*foreground: #ffffff
+
+*color0: #140a2e
+*color1: #812ddb
+*color2: #569900
+*color3: #b2008b
+*color4: #438dbb
+*color5: #e028da
+*color6: #299ca2
+*color7: #8e8b9c
+
+*color8: #190d39
+*color9: #812ddb
+*color10: #569900
+*color11: #b2008b
+*color12: #438dbb
+*color13: #e028da
+*color14: #299ca2
+*color15: #ffffff
+ 

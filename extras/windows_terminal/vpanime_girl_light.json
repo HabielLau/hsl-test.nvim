@@ -1,0 +1,25 @@
+# Add the following object to your Windows Terminal configuration
+# https://learn.microsoft.com/en-us/windows/terminal/customize-settings/color-schemes#creating-your-own-color-scheme
+{
+    "background": "#ebe9f9",
+    "black": "#f1effa",
+    "blue": "#336e93",
+    "brightBlack": "#ebe9f9",
+    "brightBlue": "#336e93",
+    "brightCyan": "#196b70",
+    "brightGreen": "#3f7300",
+    "brightPurple": "#736cc3",
+    "brightRed": "#a676f1",
+    "brightWhite": "#474747",
+    "brightYellow": "#ff34cb",
+    "cursorColor": "#474747",
+    "cyan": "#196b70",
+    "foreground": "#474747",
+    "green": "#3f7300",
+    "name": "Vpanime Girl Light",
+    "purple": "#bb20b6",
+    "red": "#a676f1",
+    "selectionBackground": "#4e99c9",
+    "white": "#635f74",
+    "yellow": "#ff34cb"
+}

@@ -1,0 +1,17 @@
+# vpanime-girl colors for dunst
+# For more configuraion options see https://github.com/dunst-project/dunst/blob/master/dunstrc
+
+[urgency_low]
+    background = "#dfdbf7"
+    foreground = "#474747"
+    frame_color = "#474747"
+
+[urgency_normal]
+    background = "#ebe9f9"
+    foreground = "#474747"
+    frame_color = "#474747"
+
+[urgency_critical]
+    background = "#dfdbf7"
+    foreground = "#a375fb"
+    frame_color = "#a375fb"

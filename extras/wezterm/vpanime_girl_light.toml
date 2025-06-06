@@ -1,0 +1,40 @@
+[colors]
+foreground = "#474747"
+background = "#ebe9f9"
+cursor_bg = "#474747"
+cursor_border = "#474747"
+cursor_fg = "#ebe9f9"
+selection_bg = "#4e99c9"
+selection_fg = "#474747"
+
+ansi = ["#f1effa", "#a676f1", "#3f7300", "#ff34cb", "#336e93", "#bb20b6", "#196b70", "#635f74"]
+brights = ["#ebe9f9", "#a676f1", "#3f7300", "#ff34cb", "#336e93", "#bb20b6", "#196b70", "#474747"]
+
+[colors.tab_bar]
+inactive_tab_edge = "#dfdbf7"
+background = "#191b28"
+
+[colors.tab_bar.active_tab]
+fg_color = "#336e93"
+bg_color = "#ebe9f9"
+
+[colors.tab_bar.inactive_tab]
+bg_color = "#dfdbf7"
+fg_color = "#d6d1f1"
+
+[colors.tab_bar.inactive_tab_hover]
+bg_color = "#dfdbf7"
+fg_color = "#336e93"
+
+[colors.tab_bar.new_tab_hover]
+fg_color = "#dfdbf7"
+bg_color = "#336e93"
+
+[colors.tab_bar.new_tab]
+fg_color = "#336e93"
+bg_color = "#191b28"
+
+[metadata]
+aliases = []
+author = "HabielLau"
+name = "Vpanime Girl Light"

@@ -1,0 +1,25 @@
+    # vpanime girl
+
+    # Syntax Highlighting Colors
+    fish_color_normal 474747
+    fish_color_command 196b70
+    fish_color_keyword bb20b6
+    fish_color_quote ff34cb
+    fish_color_redirection 474747
+    fish_color_end cd55fa
+    fish_color_error a676f1
+    fish_color_param 736cc3
+    fish_color_comment 8f88a2
+    fish_color_selection --background=4e99c9
+    fish_color_search_match --background=4e99c9
+    fish_color_operator 3f7300
+    fish_color_escape bb20b6
+    fish_color_autosuggestion 8f88a2
+
+    # Completion Pager Colors
+    fish_pager_color_progress 8f88a2
+    fish_pager_color_prefix 196b70
+    fish_pager_color_completion 474747
+    fish_pager_color_description 8f88a2
+    fish_pager_color_selected_background --background=4e99c9
+  

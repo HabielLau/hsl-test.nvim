@@ -1,0 +1,38 @@
+# Vpanime Girl color theme for Zathura
+# Swaps Foreground for Background to get a light version if the user prefers
+#
+# Tokyonight color theme
+#
+set notification-error-bg "#a676f1"
+set notification-error-fg "#474747"
+set notification-warning-bg "#ff34cb"
+set notification-warning-fg "#ebe9f9"
+set notification-bg "#ebe9f9"
+set notification-fg "#474747"
+set completion-bg "#ebe9f9"
+set completion-fg "#635f74"
+set completion-group-bg "#ebe9f9"
+set completion-group-fg "#635f74"
+set completion-highlight-bg "#ebe9f9"
+set completion-highlight-fg "#474747"
+set index-bg "#ebe9f9"
+set index-fg "#474747"
+set index-active-bg "#ebe9f9"
+set index-active-fg "#474747"
+set inputbar-bg "#ebe9f9"
+set inputbar-fg "#474747"
+set statusbar-bg "#ebe9f9"
+set statusbar-fg "#474747"
+set highlight-color "#ff34cb"
+set highlight-active-color "#3f7300"
+set default-bg "#ebe9f9"
+set default-fg "#474747"
+set render-loading true
+set render-loading-fg "#ebe9f9"
+set render-loading-bg "#474747"
+#
+# Recolor mode settings
+# <C-r> to switch modes
+#
+set recolor-lightcolor "#ebe9f9"
+set recolor-darkcolor "#474747"

@@ -1,0 +1,18 @@
+# Import this theme as follows:
+# 1. Create a new profile for GNOME Terminal
+# 2. Copy the UUID of the new profile (bottom right corner of the preferences window)
+# 3. Replace <PROFILE_UUID> below with the copied UUID
+# 4. Execute `dconf load /org/gnome/terminal/legacy/profiles:/ < ${_name}.dconf`
+
+[:<PROFILE_UUID>]
+background-color='rgb(25, 13, 57)'
+cursor-background-color='rgb(255, 255, 255)'
+cursor-colors-set=true
+cursor-foreground-color='rgb(25, 13, 57)'
+foreground-color='rgb(255, 255, 255)'
+highlight-background-color='rgb(255, 255, 255)'
+highlight-colors-set=true
+highlight-foreground-color='rgb(25, 13, 57)'
+palette=['rgb(25, 13, 57)', 'rgb(129, 45, 219)', 'rgb(86, 153, 0)', 'rgb(178, 0, 139)', 'rgb(67, 141, 187)', 'rgb(224, 40, 218)', 'rgb(41, 156, 162)', 'rgb(255, 255, 255)', 'rgb(25, 13, 57)', 'rgb(129, 45, 219)', 'rgb(86, 153, 0)', 'rgb(178, 0, 139)', 'rgb(67, 141, 187)', 'rgb(224, 40, 218)', 'rgb(41, 156, 162)', 'rgb(255, 255, 255)']
+use-theme-colors=false
+visible-name='Vpanime Girl'
