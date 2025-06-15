@@ -77,7 +77,8 @@ function M.setup(opts)
   opts = opts or {}
   local config = require("vpanime-girl.config")
 
-  -- local style = config.is_day() and config.options.light_style or config.options.style
+  -- local style = config.is_day() and config.options.light_style
+  -- or config.options.style
   local style = "default"
   local palette = M[style] or {}
   if type(palette) == "function" then
