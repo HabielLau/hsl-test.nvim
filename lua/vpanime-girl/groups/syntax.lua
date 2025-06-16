@@ -17,7 +17,7 @@ function M.get(c, opts)
     Statement                = { fg = c.green500 }, -- (preferred) any statement
     -- Conditional   = { }, --  if, then, else, endif, switch, etc.
     -- Repeat        = { }, --   for, do, while, etc.
-    -- Label         = { }, --    case, default, etc.
+    Label         = { fg = c.base4 }, --    case, default, etc.
     Operator                 = { fg = c.green500 }, -- "sizeof", "+", "*", etc.
     Keyword                  = { fg = c.green500, style = opts.styles.keywords }, --  any other keyword
     -- Exception     = { }, --  try, catch, throw
