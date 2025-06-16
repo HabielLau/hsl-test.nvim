@@ -91,7 +91,7 @@ function M.get(c, opts)
 
     -- Types
     ["@type.builtin"]                 = "Type",
-    ["@variable.member"]              = { fg = c.cyan500 }, -- For fields.
+    ["@variable.member"]              = { fg = c.cyan300 }, -- For fields.
     ["@property"]                     = "Identifier",
 
     -- Identifiers
