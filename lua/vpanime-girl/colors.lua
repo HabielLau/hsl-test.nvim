@@ -69,7 +69,7 @@ M.default = {
 
   bg = hsl(256, 62, 14),
   bg_highlight = hsl(256, 62, 19),
-  fg = hsl(00, 00, 100),
+  fg = hsl(250, 08, 58),
 }
 
 ---@return ColorScheme
