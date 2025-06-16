@@ -11,7 +11,8 @@ function M.get(c, opts)
     -- Boolean       = { }, --  a boolean constant: TRUE, false
     -- Float         = { }, --    a floating point constant: 2.3e10
 
-    Identifier               = { fg = c.blue500, style = opts.styles.variables }, -- (preferred) any variable name
+    -- Identifier               = { fg = c.blue500, style = opts.styles.variables }, -- (preferred) any variable name
+    Identifier               = { fg = c.blue500 }, -- (preferred) any variable name
     Function                 = { fg = c.blue500, style = opts.styles.functions }, -- function name (also: methods for classes)
 
     Statement                = { fg = c.green500 }, -- (preferred) any statement
