@@ -3,7 +3,7 @@ local M = {}
 function M.get(c, opts)
   -- stylua: ignore
   return {
-    Comment                  = { fg = c.base01, style = opts.styles.comments }, -- any comment
+    Comment                  = { fg = c.base1, style = opts.styles.comments }, -- any comment
     Constant                 = { fg = c.cyan500 }, -- (preferred) any constant
     String                   = { fg = c.cyan500 }, --   a string constant: "this is a string"
     Character                = "Constant", --  a character constant: 'c', '\n'
@@ -11,8 +11,7 @@ function M.get(c, opts)
     -- Boolean       = { }, --  a boolean constant: TRUE, false
     -- Float         = { }, --    a floating point constant: 2.3e10
 
-    -- Identifier               = { fg = c.blue500, style = opts.styles.variables }, -- (preferred) any variable name
-    Identifier               = { fg = c.base4 }, -- (preferred) any variable name
+    Identifier               = { fg = c.blue500, style = opts.styles.variables }, -- (preferred) any variable name
     Function                 = { fg = c.blue500, style = opts.styles.functions }, -- function name (also: methods for classes)
 
     Statement                = { fg = c.green500 }, -- (preferred) any statement
