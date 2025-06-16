@@ -95,7 +95,7 @@ function M.get(c, opts)
     ["@property"]                     = "Identifier",
 
     -- Identifiers
-    ["@variable"]                     = { fg = c.base0, style = opts.styles.variables }, -- Any variable name that does not have another highlight.
+    ["@variable"]                     = { fg = c.base4, style = opts.styles.variables }, -- Any variable name that does not have another highlight.
     ["@variable.builtin"]             = { fg = c.orange500 }, -- Variable names that are defined by the languages, like `this` or `self`.
     ["@module.builtin"]               = { fg = c.orange500 }, -- Variable names that are defined by the languages, like `this` or `self`.
 
