@@ -74,8 +74,8 @@ function M.get(c, opts)
     ["@markup.list.markdown"]         = { fg = c.orange500, bold = true },
 
     -- Literals
-    ["@string.documentation"]         = { fg = c.cyan500 },
-    ["@string.regexp"]                = { fg = c.cyan300 }, -- For regexes.
+    ["@string.documentation"]         = { fg = c.cyan300 },
+    ["@string.regexp"]                = { fg = c.cyan500 }, -- For regexes.
     ["@string.escape"]                = { fg = c.orange700 }, -- For escape characters within a string.
 
     -- Functions
