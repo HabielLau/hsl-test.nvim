@@ -12,13 +12,13 @@ function M.get(c, opts)
     -- Float         = { }, --    a floating point constant: 2.3e10
 
     -- Identifier               = { fg = c.blue500, style = opts.styles.variables }, -- (preferred) any variable name
-    Identifier               = { fg = c.blue500 }, -- (preferred) any variable name
+    Identifier               = { fg = c.base4 }, -- (preferred) any variable name
     Function                 = { fg = c.blue500, style = opts.styles.functions }, -- function name (also: methods for classes)
 
     Statement                = { fg = c.green500 }, -- (preferred) any statement
     -- Conditional   = { }, --  if, then, else, endif, switch, etc.
     -- Repeat        = { }, --   for, do, while, etc.
-    Label         = { fg = c.base4 }, --    case, default, etc.
+    Label                    = { fg = c.base4 }, --    case, default, etc.
     Operator                 = { fg = c.green500 }, -- "sizeof", "+", "*", etc.
     Keyword                  = { fg = c.green500, style = opts.styles.keywords }, --  any other keyword
     -- Exception     = { }, --  try, catch, throw
