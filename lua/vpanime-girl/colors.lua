@@ -108,7 +108,8 @@ function M.setup(opts)
     or config.options.styles.floats == "dark" and colors.base04
     or colors.bg
 
-  -- colors.fg_float = config.options.styles.floats == "dark" and colors.base01 or colors.fg
+  -- colors.fg_float = config.options.styles.floats == "dark"
+  -- and colors.base01 or colors.fg
   colors.fg_float = colors.fg
 
   colors.error = colors.red500
